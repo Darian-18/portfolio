@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
+
 :root{
-  --primary-white: #fff;
-  --primary-orange: #f9ab00;
-  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-white: rgb(236, 230, 230);
+  --primary-orange: #2287e6;
+  --primary-dark: #000000;
+  --primary-green: #1aca55;
+  --primary-blue-hover: #41d3bb;
 }
+
+/******************** Navbar *******************/
 
 body {
   font-family: "Roboto Condesed" sans-serif;
+}
+
+nav {
+  z-index: 2;
 }
 
 nav a.nav-link {
@@ -29,9 +38,16 @@ nav ul li {
 }
 
 .navbar-brand{
+  /* max-height: 30rem; */
   max-width: 17.25rem;
-  padding: 0 i !important;
+  padding: 2.25rem !important;
   height: 6rem !important;
+}
+
+@media(max-width: 768px) {
+  .navbar-brand{
+    width: 7rem;
+  }
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
@@ -40,4 +56,82 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/******************** Header *******************/
+
+.header-wraper {
+  position: relative;
+  background: linear-gradient(0.25turn, #2287e6, #0f2e68, #000000, #0f2e68, #2287e6);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-info h1{
+  color:rgb(236, 230, 230);
+  text-transform: uppercase;
+}
+
+@media(max-width: 768px){
+  .main-info h1{
+    font-size: 1.7rem !important;
+  }
+  .typed-text{
+    font-size: 1.3rem !important;
+  }
+}
+
+/******************** Navbar *******************/
+
+.typed-text {
+  font-size: 2rem;
+  color:rgb(236, 230, 230);
+}
+
+/******************** Header Main Offer Button *******************/
+
+.btn-main-offer{
+  color: #9e9999;
+  border: 1px solid var(--primary-white);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  margin: 2rem;
+}
+
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: var(--primary-blue-hover);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+/******************** Particles *******************/
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+@media(max-width: 768px) {
+  .particle-canvas {
+    display: none;
+  }
 }
