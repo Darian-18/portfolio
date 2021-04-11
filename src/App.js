@@ -8,6 +8,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/react-fontawesome";
 
 function App() {
+  const currentURL = window.location.href // returns the absolute URL of a page
+
+  const pathname = window.location.pathname //returns the current url minus the domain name
+
   return (
     <>
       <Particles 
