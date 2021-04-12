@@ -3,14 +3,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Aboutme from "./components/Aboutme";
 // FONT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/react-fontawesome";
+import { BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 
 function App() {
-  const currentURL = window.location.href // returns the absolute URL of a page
-
-  const pathname = window.location.pathname //returns the current url minus the domain name
 
   return (
     <>
@@ -36,7 +35,12 @@ function App() {
         }}
       />
       <Navbar />
-      <Header />
+      <Router>
+        <Switch>
+          <Route path="/" exact component={Header} />
+          <Route path="/Aboutme" exact component={Aboutme} />
+        </Switch>
+      </Router>
     </>
   );
 }
