@@ -14,14 +14,19 @@ const Aboutme = () => {
                     loop
                 />
                 <div className="card-body">
+                    <h4>Darian Martinez</h4>
                     {/* <div className="shadow-lg p-3 mb-5 rounded"> */}
-                        <h5>About Me</h5>
-                        <p>With supporting text below as a natural lead-in to additional content.</p>
+                <div className="img">
+                    <img name={me} src={me} />
+                </div>
+                        {/* <h5>Software Developer</h5> */}
+                        <p>Graduated from Kenzie Academy as a Software Developer,
+                            Learn by Doing and Collaborate with Others. I'm a self-motivated 
+                            Junior Software Developer with hands-on Project experience functioning 
+                            remotely with others. 
+                        </p>
                     {/* </div> */}
                 </div>
-                {/* <div className="img">
-                    <image name={""} src={""} />
-                </div> */}
             </div>
         </div>
     )

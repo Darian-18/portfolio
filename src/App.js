@@ -4,6 +4,7 @@ import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Aboutme from "./components/Aboutme";
+import Contacts from "./components/Contacts";
 // FONT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/react-fontawesome";
@@ -39,6 +40,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Header} />
           <Route path="/Aboutme" exact component={Aboutme} />
+          <Route path="/Contacts" exact component={Contacts} />
         </Switch>
       </Router>
     </>

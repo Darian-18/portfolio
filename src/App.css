@@ -164,16 +164,23 @@ nav ul li {
 }
 
 .card-body {
-  background: linear-gradient(0.25turn ,#000000, #0f2e68, #2287e6, #0f2e68, #000000);
+  background: linear-gradient(0.25turn ,#0000007e, #0f2e68, #2287e6, #0f2e68, #0000007e);
   background-position: center;
-  border-top: 0.1875rem;
+  border-top: 0.1870rem;
   color: #f1ebeb;
   background-color: #0000006e;
   /* display: flex; */
-  margin: 2.5rem 5rem;
+  margin: 1.5rem 4rem;
   justify-content: center;
   flex-direction: row;
 }
 
 
 /******************** image *******************/
+
+img {
+  float: left;
+  height: 15.600;
+  width: 15.600;
+  border-radius: 50%;
+}

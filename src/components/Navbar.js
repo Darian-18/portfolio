@@ -35,11 +35,6 @@ const Navbar = () => {
 
                         <li className="nav-item">
                             <a className="nav-link" href="Aboutme">
-                                {/* <Router>
-                                   <Router path="/Aboutme">
-                                   <Aboutme />
-                                   </Router> 
-                                </Router>    */}
                                 About Me
                             </a>
                         </li>
