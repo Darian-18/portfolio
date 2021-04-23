@@ -20,10 +20,11 @@ const Aboutme = () => {
                     <img name={me} src={me} />
                 </div>
                         {/* <h5>Software Developer</h5> */}
-                        <p>Graduated from Kenzie Academy as a Software Developer,
+                        <p>Graduated from Kenzie Academy as a Fullstack Software Developer,
                             Learn by Doing and Collaborate with Others. I'm a self-motivated 
                             Junior Software Developer with hands-on Project experience functioning 
-                            remotely with others. 
+                            remotely with others in group prjects. I love diving into the frontend 
+                            with CSS and Bootstrap but also know my way around Javascript and Python. 
                         </p>
                     {/* </div> */}
                 </div>

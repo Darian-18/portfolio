@@ -141,11 +141,11 @@ nav ul li {
 
 
 .about-wraper {
-  position: relative;
-  background: linear-gradient(0.25turn, #2287e6, #0f2e68, #000000, #0f2e68, #2287e6);
-  background-size: cover;
-  background-position: center;
-  height: 90vh;
+  position: relative !important;
+  background: linear-gradient(0.25turn, #2287e6, #0f2e68, #000000, #0f2e68, #2287e6) transparent;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 90vh !important;
 }
 
 .main-info-about {
@@ -183,4 +183,17 @@ img {
   height: 15.600;
   width: 15.600;
   border-radius: 50%;
+}
+
+
+/******************** image *******************/
+
+.contact {
+  color: #f1ebeb;
+  background-color: #0000006e;
+  margin-left: 28.5rem;
+  /* margin-top: 10rem; */
+  height: 300px;
+  width: 340px;
+  padding: 50px;
 }
