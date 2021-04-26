@@ -1,15 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import Aboutme from "./Aboutme";
-// import Header from "./Header";
 
 const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container">
-                <a className="navbar-brand" href="Darian">
+                <a className="navbar-brand" href="Surprise">
                     Darian Martinez
                 </a>
                     <button 
@@ -48,7 +45,7 @@ const Navbar = () => {
                         </li> */}
 
                         <li className="nav-item">
-                            <a className="nav-link" href="portfolio">
+                            <a className="nav-link" href="Portfolio">
                                 Portfolio
                             </a>
                         </li>

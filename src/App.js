@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Aboutme from "./components/Aboutme";
 import Contacts from "./components/Contacts";
+import Portfolio from "./components/Portfolio";
+import Surprise from "./components/Suprise"; 
 // FONT FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/react-fontawesome";
@@ -41,6 +43,8 @@ function App() {
           <Route path="/" exact component={Header} />
           <Route path="/Aboutme" exact component={Aboutme} />
           <Route path="/Contacts" exact component={Contacts} />
+          <Route path="/Portfolio" exact component={Portfolio} />
+          <Route path="/Surprise" exact component={Surprise} />
         </Switch>
       </Router>
     </>
