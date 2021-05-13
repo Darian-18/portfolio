@@ -1,5 +1,6 @@
 import React from "react";
 import surprise from "../images/suprise.png";
+import "../components/suprise.css";
 
 
 const Surprise = () => {

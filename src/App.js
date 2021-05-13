@@ -8,8 +8,6 @@ import Contacts from "./components/Contacts";
 import Portfolio from "./components/Portfolio";
 import Surprise from "./components/Suprise"; 
 // FONT FONTAWESOME IMPORTS
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/react-fontawesome";
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {

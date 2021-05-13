@@ -1,24 +1,37 @@
 import React from "react";
-import { BrowserRouter as Link} from "react-router-dom";
+import { BrowserRouter as Route, NavLink, Link} from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+// import { Text, Linking } from 'react-native';
+
 
 const Contacts = () => {
     return(
         <div className="about-wraper">
+            {/* {console.log("darian")} */}
             <div className="contact">
-                    <h3>405-968-9581</h3>
-                    <h3>Gmail</h3>
-                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                        </svg>  
-                        <a href="https://github.com/Darian-18">
-                            GitHub
+                    
+                    <div className="main-info">
+                        <a className="btn-main-offer">405-968-9581</a>
+
+                        <a className="btn-main-offer">darian.mtz18@gmail.com</a>
+                        
+                        <a href="https://github.com/Darian-18" className="btn-main-offer" ><FontAwesomeIcon icon={ faGithub } size="lg" /></a>
+                        
+                        <a href="https://www.linkedin.com/in/darian-martinez-7456041a0/" className="btn-main-offer"><FontAwesomeIcon icon={ faLinkedin } size="lg" /></a>
+                    
+                        <a
+                            href="https://twitter.com/kamododarian"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn-main-offer"
+                        >
+                            <FontAwesomeIcon icon={ faTwitter } size="lg" />
                         </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/darian-martinez-7456041a0/">LinkedIn</a>
-                    </li>
-                    <h3>Twitter</h3>
+                   
+                    </div>
             </div>
         </div>
     )
