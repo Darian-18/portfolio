@@ -188,10 +188,9 @@ img {
 .contact {
   z-index: 2;
   color: #f1ebeb;
-  /* background-color: #0000006e; */
   margin-left: 28.5rem;
-  height: 300px;
-  width: 340px;
-  padding: 50px;
+  height: 18.75rem;
+  width: 21.25rem;
+  padding: 3.125rem;
   cursor: pointer;
 }
