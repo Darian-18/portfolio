@@ -20,11 +20,13 @@ const Aboutme = () => {
                     <img name={me} src={me} />
                 </div>
                         {/* <h5>Software Developer</h5> */}
-                        <p>Graduated from Kenzie Academy as a Fullstack Software Developer,
-                            Learn by Doing and Collaborate with Others. I'm a self-motivated 
-                            Junior Software Developer with hands-on Project experience functioning 
-                            remotely with others in group prjects. I love diving into the frontend 
-                            with CSS and Bootstrap but also know my way around Javascript and Python. 
+                        <p>Being a Sucker for Art, Video Games, and Music, these are my main hobbies 
+                            that keep me motivated and curious to learn. But now that I’ve stumbled 
+                            upon Software Engineering, It has brought me closer to everything I love doing. 
+                            I hope to make this just as big as a passion as much as I love my hobbies. 
+                            Knowing that this field of work is a huge piece that makes my everyday life 
+                            a reality, I now know that software engineering is the magic that made my hobbies 
+                            a reality and now want to use that magic to make my hobbies and more.
                         </p>
                     {/* </div> */}
                 </div>

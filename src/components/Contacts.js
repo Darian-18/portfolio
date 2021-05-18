@@ -10,11 +10,11 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Contacts = () => {
     return(
         <div className="about-wraper">
-            {/* {console.log("darian")} */}
+
             <div className="contact">
                     
                     <div className="main-info">
-                        <a className="btn-main-offer">405-968-9581</a>
+                        <a href="https://docs.google.com/document/d/19Q6aLPognCzlXfkjX-Vk-naIrMhvBiNdxW5XWrkgUVM/edit?usp=sharing" className="btn-main-offer">RESUME</a>
 
                         <a className="btn-main-offer">darian.mtz18@gmail.com</a>
                         
