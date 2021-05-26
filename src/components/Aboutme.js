@@ -16,7 +16,7 @@ const Aboutme = () => {
                 <div className="card-body">
                     <h4>Darian Martinez</h4>
                     {/* <div className="shadow-lg p-3 mb-5 rounded"> */}
-                <div className="img">
+                <div className="img-me">
                     <img name={me} src={me} />
                 </div>
                         {/* <h5>Software Developer</h5> */}

@@ -175,7 +175,7 @@ nav ul li {
 
 /******************** image *******************/
 
-img {
+.img-me > img  {
   float: left;
   height: 15.600;
   width: 15.600;
