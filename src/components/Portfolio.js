@@ -8,13 +8,11 @@ import haiku from "../images/haiku.png";
 const Portfolio = () => {
     return(
         <div className="about-wraper">
-            
-
-            <div className="img-2">
-                <img className="ball" name={ball} src={ball} />
-                <img className="breakout" name={breakout} src={breakout} />
-                <img className="game" name={game} src={game} />
-                <img className="haiku" name={haiku} src={haiku} />
+            <div className="img">
+                <img className="ball" name={ball} src={ball} width="150px" height="150px"/>
+                <img className="breakout" name={breakout} src={breakout} width="150px" height="150px" />
+                <img className="game" name={game} src={game} width="150px" height="150px" />
+                <img className="haiku" name={haiku} src={haiku} width="150px" height="150px" />
             </div>
 
             
