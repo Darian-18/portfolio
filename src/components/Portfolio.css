@@ -1,0 +1,9 @@
+.contact {
+    z-index: 2;
+    color: #f1ebeb;
+    margin-left: 28.5rem;
+    height: 18.75rem;
+    width: 21.25rem;
+    padding: 3.125rem;
+    cursor: pointer;
+  }

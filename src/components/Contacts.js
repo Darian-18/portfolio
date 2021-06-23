@@ -14,7 +14,7 @@ const Contacts = () => {
             <div className="contact">
                     
                     <div className="main-info">
-                        <a href="https://docs.google.com/document/d/19Q6aLPognCzlXfkjX-Vk-naIrMhvBiNdxW5XWrkgUVM/edit?usp=sharing" className="btn-main-offer">RESUME</a>
+                        <a href="https://docs.google.com/document/d/e/2PACX-1vTmy7ygBgqlkR2QY4fc5Ru02hqUjPvLnd83bgwzAs9BoMsx7KiLViFY8fECYcitfPYmMg9vB5TaV2Pj/pub" className="btn-main-offer">RESUME</a>
 
                         <a className="btn-main-offer">darian.mtz18@gmail.com</a>
                         

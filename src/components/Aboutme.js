@@ -20,13 +20,13 @@ const Aboutme = () => {
                     <img name={me} src={me} />
                 </div>
                         {/* <h5>Software Developer</h5> */}
-                        <p>Being a Sucker for Art, Video Games, and Music, these are my main hobbies 
-                            that keep me motivated and curious to learn. But now that I’ve stumbled 
-                            upon Software Engineering, It has brought me closer to everything I love doing. 
-                            I hope to make this just as big as a passion as much as I love my hobbies. 
-                            Knowing that this field of work is a huge piece that makes my everyday life 
-                            a reality, I now know that software engineering is the magic that made my hobbies 
-                            a reality and now want to use that magic to make my hobbies and more.
+                        <p>I am a Kenzie Academy Software Development Graduate and I want to 
+                            further enhance my coding ability whether that be Frontend, 
+                            Backend, or Design. I really love the designing portion behind 
+                            coding and really interested in how I can go further with css animations,
+                            bootstrap and flexbox. 
+                            I’m seeking a front-end based position that will allow me to use both my 
+                            development skills like javascript  and designing skills like Bootstrap and CSS.
                         </p>
                     {/* </div> */}
                 </div>
