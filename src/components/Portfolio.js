@@ -12,7 +12,7 @@ const Portfolio = () => {
         <div className="about-wraper">
             <div className="contact">
                 <div className="main-info">
-                    <a className="btn-main-offer">8-Ball</a>
+                    <a className="btn-main-offer" href="https://magic-ball-peds5byfu-darian-18.vercel.app">8-Ball</a>
                     <a className="btn-main-offer" href="https://the-living-haiku.web.app/">Haiku</a>
                 </div>
             </div>
