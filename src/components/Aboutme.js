@@ -20,7 +20,7 @@ const Aboutme = () => {
                     <img name={me} src={me} />
                 </div>
                         {/* <h5>Software Developer</h5> */}
-                        <p>I am a Kenzie Academy Software Development Graduate and I want to 
+                        <p>I am a Kenzie Academy Software Development graduate and I want to 
                             further enhance my coding ability whether that be Frontend, 
                             Backend, or Design. I really love the designing portion behind 
                             coding and really interested in how I can go further with css animations,
