@@ -1,6 +1,8 @@
 My ReadMe
-    This is my web development portfolio that I created to 
-    show off what I am capable of.
+    With my experience into the Development world, I am super Excited
+    to present my portfolio to everyone. Please feel free to contact me 
+    in anyway to discuss any oppertunities, idea's, or feedback. I am 
+    Ready to make more ideas come to light!
 
 
 REFFERENCES 
@@ -34,3 +36,6 @@ Types Scripts
 
 YouTube Template
 - https://www.youtube.com/watch?v=vD72tRK8mC4&t=1s
+
+Background Template 
+- https://1stwebdesigner.com/15-css-background-effects/

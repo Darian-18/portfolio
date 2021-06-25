@@ -9,7 +9,7 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Contacts = () => {
     return(
-        <div className="about-wraper">
+        <div className="header-wraper">
 
             <div className="contact">
                     

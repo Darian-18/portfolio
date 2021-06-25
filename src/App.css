@@ -67,6 +67,24 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 90vh;
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+/* body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+} */
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .main-info {
@@ -141,13 +159,13 @@ nav ul li {
 /******************** About Me *******************/
 
 
-.about-wraper {
+/* .about-wraper {
   position: relative;
   background: linear-gradient(0.25turn, #2287e6, #0f2e68, #000000, #0f2e68, #2287e6) transparent;
   background-size: cover;
   background-position: center;
   height: 90vh;
-}
+} */
 
 .main-info-about {
   position: absolute;

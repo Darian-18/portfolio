@@ -6,7 +6,7 @@ import Typed from "react-typed";
 
 const Surprise = () => {
     return(
-        <div className="about-wraper">
+        <div className="header-wraper">
          <div className="main-info">
             <div className="img-one">
                 <img name={surprise} src={surprise} />

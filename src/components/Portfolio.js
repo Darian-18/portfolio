@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Portfolio = () => {
     return(
-        <div className="about-wraper">
+        <div className="header-wraper">
             <div className="contact">
                 <div className="main-info">
                     <a className="btn-main-offer" href="https://magic-ball-peds5byfu-darian-18.vercel.app">8-Ball</a>
