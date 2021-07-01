@@ -8,7 +8,8 @@ import Contacts from "./components/Contacts";
 import Portfolio from "./components/Portfolio";
 import Surprise from "./components/Suprise"; 
 // FONT FONTAWESOME IMPORTS
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
+import {LinkContainer} from 'react-router-bootstrap';
 
 function App() {
 
@@ -19,16 +20,16 @@ function App() {
         params={{
           particles: {
             number: {
-              value: 30, 
+              value: 40, 
               density: {
                 enable: true, 
-                value_area: 900
+                value_area: 1000
               }
             },
             shape: {
-              type: "star",
+              // type: "star",
               stroke: {
-                width: 6,
+                width: 8,
                 color: "#ff61b0"
               }
             } 
@@ -36,14 +37,22 @@ function App() {
         }}
       />
       <Navbar />
+      {/* <Router>
+        <Route>
+          <Header />     
+          <Aboutme />  
+          <Portfolio />
+          <Contacts />
+        </Route>
+      </Router> */}
       <Router>
-        <Switch>
+        
           <Route path="/" exact component={Header} />
           <Route path="/Aboutme" exact component={Aboutme} />
           <Route path="/Contacts" exact component={Contacts} />
           <Route path="/Portfolio" exact component={Portfolio} />
           <Route path="/Surprise" exact component={Surprise} />
-        </Switch>
+          
       </Router>
     </>
   );

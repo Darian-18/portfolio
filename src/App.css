@@ -13,29 +13,36 @@
 /******************** Navbar *******************/
 
 body {
-  font-family: "Roboto Condesed" sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-attachment: fixed;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-repeat: repeat-y;
 }
 
 nav {
   z-index: 2;
+  background-color: #000000;
 }
 
 nav a.nav-link {
   font-size: .8rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
+  color: #ffffff;
 }
 
 nav ul li {
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .navbar > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-white) !important;
-  border-top: 0.1875rem solid var(--primary-dark);
+  color: #fcfcfc !important;
+  border-top: 0.1875rem solid #ffffff;
+  color: #ffffff;
 }
 
 .navbar-brand{
@@ -43,6 +50,7 @@ nav ul li {
   max-width: 17.25rem;
   padding: 2.25rem !important;
   height: 6rem !important;
+  color: #ffffff;
 }
 
 @media(max-width: 768px) {
@@ -52,11 +60,11 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid #ffffff;
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
+  border-top: 0.1875rem solid #ffffff;
 }
 
 /******************** Header *******************/
@@ -69,11 +77,8 @@ nav ul li {
   height: 90vh;
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
+  background-repeat: repeat-y;
 }
-
-/* body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-} */
 
 @keyframes gradient {
 	0% {
@@ -125,19 +130,21 @@ nav ul li {
 /******************** Header Main Offer Button *******************/
 
 .btn-main-offer{
-  color: #9e9999;
-  border: 1px solid var(--primary-white);
+  color: #ffffff;
+  border: 1px solid var(ffffff);
+  background: #000000;
   /* text-transform: uppercase; */
-  border-radius: 0;
+  border-radius: 10%;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   margin: 2rem;
 }
 
 .btn-main-offer:hover{
   text-decoration: none;
-  background-color: var(--primary-blue-hover);
-  color: var(--primary-white);
-  transition: .2s ease-in-out;
+  background-color: #ffffff;
+  color: #ee37d6;
+  text-decoration-color: #ee37d6;
+  transition: .5s ease-in-out;
 }
 
 /******************** Particles *******************/

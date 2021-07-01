@@ -4,7 +4,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg">
             <div className="container">
                 <a className="navbar-brand" href="Surprise">
                     Darian Martinez
@@ -16,7 +16,7 @@ const Navbar = () => {
                     aria-controls="navbarSupportedContent" 
                     aria-expanded="false" 
                     aria-label="Toggle navigation">
-                        <FontAwesomeIcon icon={faBars} style={{ color: "007bff" }}/>
+                        <FontAwesomeIcon icon={faBars} style={{ color: "000000" }}/>
                     </button>
                 <div 
                 className="collapse navbar-collapse" 
@@ -30,19 +30,16 @@ const Navbar = () => {
                             </a>
                         </li>
 
-                        <li className="nav-item">
-                            <a className="nav-link" href="Aboutme">
-                                About Me
-                            </a>
-                        </li>
 
-                        {/* <li className="nav-item">
-                            <a className="nav-link" href="Services">Services</a>
-                        </li>  */}
+                        <div id="Aboutme">
+                            <li className="nav-item">
+                                <a className="nav-link" href="Aboutme">
+                                    About Me
+                                </a>
+                            </li>
+                        </div>
+                        
 
-                        {/* <li className="nav-item">
-                            <a className="nav-link" href="How Work">How Work</a>
-                        </li> */}
 
                         <li className="nav-item">
                             <a className="nav-link" href="Portfolio">
@@ -50,9 +47,10 @@ const Navbar = () => {
                             </a>
                         </li>
 
+
                         <li className="nav-item">
                             <a className="nav-link" href="Contacts">
-                                Contacts
+                                Contact Me
                             </a>
                         </li>
                     </ul>
