@@ -13,12 +13,12 @@ const Aboutme = () => {
                     backSpeed={60}
                     loop
                 />
-                <div className="card-body">
-                    <h4>Darian Martinez</h4>
-                    {/* <div className="shadow-lg p-3 mb-5 rounded"> */}
                 <div className="img-me">
                     <img name={me} src={me} />
                 </div>
+                <div className="card-body">
+                    <h4>Darian Martinez</h4>
+                    {/* <div className="shadow-lg p-3 mb-5 rounded"> */}
                         {/* <h5>Software Developer</h5> */}
                         <p>I am a Kenzie Academy Software Development graduate and I want to 
                             further enhance my coding ability whether that be Frontend, 

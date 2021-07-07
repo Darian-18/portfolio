@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container">
-                <a className="navbar-brand" href="Surprise">
+                <a className="navbar-brand" href="/">
                     Darian Martinez
                 </a>
                     <button 
@@ -23,12 +23,6 @@ const Navbar = () => {
                 id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
 
-                        <li className="nav-item active">
-                            <a 
-                            className="nav-link" 
-                            href="/">Home 
-                            </a>
-                        </li>
 
 
                         <div id="Aboutme">
@@ -51,6 +45,14 @@ const Navbar = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="Contacts">
                                 Contact Me
+                            </a>
+                        </li>
+
+                        <li className="nav-item active">
+                            <a 
+                            className="nav-link" 
+                            href="Surprise">
+                                Surprise
                             </a>
                         </li>
                     </ul>

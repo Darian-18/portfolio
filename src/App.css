@@ -8,21 +8,26 @@
   --primary-dark: #000000;
   --primary-green: #1aca55;
   --primary-blue-hover: #41d3bb;
+  font-family: serif;
 }
 
 /******************** Navbar *******************/
 
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: serif;
   background-attachment: fixed;
   background-repeat: repeat-x;
   background-attachment: fixed;
   background-repeat: repeat-y;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
 }
 
 nav {
   z-index: 2;
   background-color: #000000;
+  font-family: serif;
 }
 
 nav a.nav-link {
@@ -78,6 +83,8 @@ nav ul li {
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
   background-repeat: repeat-y;
+  overflow-x: hidden;
+  font-family: serif;
 }
 
 @keyframes gradient {
@@ -104,6 +111,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   z-index: 1;
+  font-family: serif;
 }
 
 .main-info h1{
@@ -125,6 +133,7 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color:rgb(236, 230, 230);
+  font-family: serif;
 }
 
 /******************** Header Main Offer Button *******************/
@@ -137,6 +146,7 @@ nav ul li {
   border-radius: 10%;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   margin: 2rem;
+  font-family: serif;
 }
 
 .btn-main-offer:hover{
@@ -145,6 +155,7 @@ nav ul li {
   color: #ee37d6;
   text-decoration-color: #ee37d6;
   transition: .5s ease-in-out;
+  font-family: serif;
 }
 
 /******************** Particles *******************/
@@ -185,26 +196,30 @@ nav ul li {
   align-items: center;
   text-align: center;
   z-index: 1;
+  font-family: serif;
 }
 
 .card-body {
   background: linear-gradient(0.25turn ,#0000007e, #0f2e68, #2287e6, #0f2e68, #0000007e);
   background-position: center;
   border-top: 0.1870rem;
+  /* border-bottom: 0.1870rem; */
   color: #f1ebeb;
   background-color: #0000006e;
   margin: 1.5rem 4rem;
   justify-content: center;
   flex-direction: row;
+  font-family: serif;
 }
 
 
 /******************** image *******************/
 
 .img-me > img  {
-  float: left;
-  height: 15.600;
-  width: 15.600;
+  position: center;
+  /* float: left; */
+  height: 10.975rem;
+  width: 10.975rem;
   border-radius: 50%;
 }
 
@@ -212,11 +227,50 @@ nav ul li {
 /******************** image *******************/
 
 .contact {
+  font-family: serif;
   z-index: 2;
   color: #f1ebeb;
   margin-left: 28.5rem;
-  height: 18.75rem;
+  height: 10.75rem;
   width: 21.25rem;
   padding: 3.125rem;
   cursor: pointer;
+}
+
+/****************** Scrollbar *********************/
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2287e6;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2287e6;
+}
+
+.main-info-portfolio {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+  font-family: serif;
 }

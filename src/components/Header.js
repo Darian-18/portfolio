@@ -15,6 +15,7 @@ const Header = () => {
                 />
                 <a href="/Contacts" className="btn-main-offer">CONTACT ME</a>
             </div>
+            {/* <footer>Hello</footer> */}
         </div>
     )
 }
