@@ -1,8 +1,7 @@
 My ReadMe
-    With my experience into the Development world, I am super Excited
-    to present my portfolio to everyone. Please feel free to contact me 
-    in anyway to discuss any oppertunities, idea's, or feedback. I am 
-    Ready to make more ideas come to light!
+    This readme is made for me and those who want to take some ideas from me.
+    I've provided all my refferences down below, so feel free to play around with some of
+    these ideas. This is my portfolio. 
 
 
 REFFERENCES 
@@ -39,3 +38,6 @@ YouTube Template
 
 Background Template 
 - https://1stwebdesigner.com/15-css-background-effects/
+
+Card Template ideas
+- https://codepen.io/prathkum/pen/JjbjEwR

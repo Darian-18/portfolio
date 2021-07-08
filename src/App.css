@@ -132,7 +132,7 @@ nav ul li {
 
 .typed-text {
   font-size: 2rem;
-  color:rgb(236, 230, 230);
+  color:rgb(255, 255, 255);
   font-family: serif;
 }
 
@@ -176,15 +176,6 @@ nav ul li {
 
 /******************** About Me *******************/
 
-
-/* .about-wraper {
-  position: relative;
-  background: linear-gradient(0.25turn, #2287e6, #0f2e68, #000000, #0f2e68, #2287e6) transparent;
-  background-size: cover;
-  background-position: center;
-  height: 90vh;
-} */
-
 .main-info-about {
   position: absolute;
   top: 0;
@@ -203,13 +194,14 @@ nav ul li {
   background: linear-gradient(0.25turn ,#0000007e, #0f2e68, #2287e6, #0f2e68, #0000007e);
   background-position: center;
   border-top: 0.1870rem;
-  /* border-bottom: 0.1870rem; */
+  border-radius: 1.50rem;
   color: #f1ebeb;
   background-color: #0000006e;
   margin: 1.5rem 4rem;
   justify-content: center;
   flex-direction: row;
   font-family: serif;
+  box-shadow: 0 0 20px 8px #2a62b6;
 }
 
 
@@ -235,6 +227,7 @@ nav ul li {
   width: 21.25rem;
   padding: 3.125rem;
   cursor: pointer;
+  font-size: large;
 }
 
 /****************** Scrollbar *********************/
@@ -258,19 +251,4 @@ nav ul li {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #2287e6;
-}
-
-.main-info-portfolio {
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  z-index: 1;
-  font-family: serif;
 }

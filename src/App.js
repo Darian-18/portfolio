@@ -37,14 +37,6 @@ function App() {
         }}
       />
       <Navbar />
-      {/* <Router>
-        <Route>
-          <Header />     
-          <Aboutme />  
-          <Portfolio />
-          <Contacts />
-        </Route>
-      </Router> */}
       <Router>
         
           <Route path="/" exact component={Header} />
