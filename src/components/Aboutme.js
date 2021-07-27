@@ -20,13 +20,13 @@ const Aboutme = () => {
                     <h4>Darian Martinez</h4>
                     {/* <div className="shadow-lg p-3 mb-5 rounded"> */}
                         {/* <h5>Software Developer</h5> */}
-                        <p>Full Stack Web/Software Developer seeking an opportunity to further 
+                        <h6 className="para">Full Stack Web/Software Developer seeking an opportunity to further 
                             enhance my programming, multimedia tools and design skills. Strong 
                             desire for design and animation aspects, strong collaborator, fast 
                             learner, adaptive, and skilled writing well efficient code using up 
                             to date practices in web development. Html, Css, Javascript, Python
                             Continuously learning
-                        </p>
+                        </h6>
                     {/* </div> */}
                 </div>
             </div>

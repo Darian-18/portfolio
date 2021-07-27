@@ -16,7 +16,7 @@ const Contacts = () => {
                     <div className="main-info">
                         <a href="https://docs.google.com/document/d/e/2PACX-1vTmy7ygBgqlkR2QY4fc5Ru02hqUjPvLnd83bgwzAs9BoMsx7KiLViFY8fECYcitfPYmMg9vB5TaV2Pj/pub" className="btn-main-offer">RESUME</a>
 
-                        <a className="btn-main-offer">darian.mtz18@gmail.com</a>
+                        <a className="btn-main-offer">Located in Oklahoma</a>
                         
                         <a href="https://github.com/Darian-18" className="btn-main-offer" ><FontAwesomeIcon icon={ faGithub } size="lg" /></a>
                         

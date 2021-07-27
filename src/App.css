@@ -80,7 +80,7 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 90vh;
-  animation: gradient 15s ease infinite;
+  animation: gradient 30s ease infinite;
   background-size: 400% 400%;
   background-repeat: repeat-y;
   overflow-x: hidden;
@@ -191,7 +191,7 @@ nav ul li {
 }
 
 .card-body {
-  background: linear-gradient(0.25turn ,#0000007e, #0f2e68, #2287e6, #0f2e68, #0000007e);
+  background: linear-gradient(0.25turn ,#0000007e, #0f2e68, #2187e9, #0f2e68, #0000007e);
   background-position: center;
   border-top: 0.1870rem;
   border-radius: 1.50rem;
@@ -202,6 +202,10 @@ nav ul li {
   flex-direction: row;
   font-family: serif;
   box-shadow: 0 0 20px 8px #2a62b6;
+}
+
+.para{
+  font-size: large;
 }
 
 
