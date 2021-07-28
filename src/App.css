@@ -191,7 +191,7 @@ nav ul li {
 }
 
 .card-body {
-  background: linear-gradient(0.25turn ,#0000007e, #0f2e68, #2187e9, #0f2e68, #0000007e);
+  background: linear-gradient(0.25turn ,#0000007e, #0f2e68, #0560b4, #0f2e68, #0000007e);
   background-position: center;
   border-top: 0.1870rem;
   border-radius: 1.50rem;
@@ -205,7 +205,7 @@ nav ul li {
 }
 
 .para{
-  font-size: large;
+  font-size: x-large;
 }
 
 
